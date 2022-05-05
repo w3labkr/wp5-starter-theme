@@ -3,6 +3,7 @@ This is a WordPress starter theme built for developers.
 
 
 ## Feature
+
 starter, sandbox, one-column, two-columns, three-columns, left-sidebar, right-sidebar, dynamic-sidebar-layout, microformat, microdata, schema, post-views, embed-youtube-parameter, w3-validator, auto-enqueue-script-versioning, clean-menu-class, secial-upload-filename, browser-upgrade-message, noscript-warning-message, fixed-navbar, breadcrumb, post-navigation, infinite-post-navigation, news, rss, feed, google-map, sitemap, custom-logo, emoji, comments, scroll-to-top, hero-content, support-child-theme, gradient-title
 
 

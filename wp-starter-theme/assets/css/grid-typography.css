@@ -1,0 +1,67 @@
+/*
+ * CSS Grid Typography
+ *
+ * Plugin URL: https://github.com/w3labkr/starter-grid-system
+ * Plugin Version: 1.2.0
+ * Author: w3labkr
+ * Author URL: https://w3lab.kr
+ * License: MIT License
+ */
+
+/* Color */
+html, body, input, textarea, button, select, option, optgroup, a { color: #222; }
+a:hover, a:focus, a:active { color: #ffb302; }
+
+/* Change selection color */
+::-moz-selection { background: #FFDF01; background: rgba(255, 223, 1, 0.3); }
+::selection { background: #FFDF01; background: rgba(255, 223, 1, 0.3); }
+
+/* heading text */
+body { font-family: 'Noto Sans', 'Open Gothic', sans-serif; font-weight: 200; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 400; line-height: 1.2; }
+h1, .h1 { font-size: 3.5rem; }
+h2, .h2 { font-size: 3rem; }
+h3, .h3 { font-size: 2.5rem; }
+h4, .h4 { font-size: 2rem; }
+h5, .h5 { font-size: 1.5rem; }
+h6, .h6 { font-size: 1rem; }
+b, strong { font-weight: 700; }
+small { font-size: 80%; }
+input, textarea, button, select, option, optgroup { font-size: 1.6rem; line-height: 1.6; }
+
+/* display heading text */
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .display-7, .display-8, .display-9 { font-weight: 100; line-height: 1; }
+.display-1 { font-size: 9rem; }
+.display-2 { font-size: 8rem; }
+.display-3 { font-size: 7rem; }
+.display-4 { font-size: 6rem; }
+.display-5 { font-size: 5rem; }
+.display-6 { font-size: 4rem; }
+.display-7 { font-size: 3rem; }
+.display-8 { font-size: 2rem; }
+.display-9 { font-size: 1rem; }
+
+/**
+ * Breakpoint: Mobile
+ */
+@media (max-width:767px) {
+
+    /* heading text */
+    h1, .h1 { font-size: 2.25rem; }
+    h2, .h2 { font-size: 2rem; }
+    h3, .h3 { font-size: 1.75rem; }
+    h4, .h4 { font-size: 1.5rem; }
+    h5, .h5 { font-size: 1.25rem; }
+    h6, .h6 { font-size: 1rem; }
+
+    /* display heading text */
+    .display-1 { font-size: 5rem; }
+    .display-2 { font-size: 4.5rem; }
+    .display-3 { font-size: 4rem; }
+    .display-4 { font-size: 3.5rem; }
+    .display-5 { font-size: 3rem; }
+    .display-6 { font-size: 2.5rem; }
+    .display-7 { font-size: 2rem; }
+    .display-8 { font-size: 1.5rem; }
+    .display-9 { font-size: 1rem; }
+}

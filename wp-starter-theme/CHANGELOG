@@ -1,0 +1,153 @@
+# CHANGELOG   
+
+## 1.0.1   
+1. Update screenshot image   
+
+
+## 1.0.0   
+1. Add Preloading Image
+2. Add Masonry Layout   
+3. Add Scrolling Event
+4. Add Contact Form default style
+5. Add Search Form default style
+6. Change directory structure
+7. Update Readme.md
+8. Add Gradient Title
+
+
+## 0.4.2
+1. Change default vendor script from swiper to slick
+2. Add hero content template tag
+3. Title tag errors fixed
+4. Rename copyright method
+5. Update template tag method
+6. Add Disable Self Pingbacks
+7. Remove Unnecessary Tags From WordPress Header
+8. Disable X-Pingback header
+9. Add prev and next article links 
+10. Fixed emoji is not working in tinymce
+11. Add prev and next article links method in template tag
+12. Remove fontawesome
+13. Add mobile layout style
+14. Add preloading image in hero content
+15. Add default webfont
+
+
+## 0.4.1
+1. Fixed an error that occurred when the src variable of starter_enqueue_script contained request parameters.
+2. Fixed an error that Google Maps is not showing on mobile
+3. Add Copyright text method
+4. Add shortcodes allowed in widget_text
+5. Update microformat entry-publisher logo url
+6. update tap highlight color from white to transparent
+7. Update schema markup
+
+
+## v0.4.0
+1. Remove unnecessary files
+2. Update microdata in the post and page
+3. Add a helper function to display the featured image url and alt tags
+4. Update prefix when upload file - 190101u1p1 = date_ymd-user_id-attachment_id
+5. Post View Counter dependency has been modified to be smaller than before.
+6. Add Remove comments feature
+7. Add Remove emoji feature
+8. Add default theme support feature - logo and refresh widget in customize
+9. Change default options in the metabox and post type support feature
+10. Add site-navigation animation
+11. Change default class in walker
+12. Add default image thumbnail, favicon and logo
+13. Add variable to current site table prefix in upload filename
+14. Update excludes value in the upload_mime_types
+15. Update variable in the autoloader
+16. Updating constant file paths for child-theme support
+17. Add Title Character Length limit 110
+18. Update microdata in the feed content
+19. Add dynamic copyright year in wordPress footer
+20. Add Remove RSS Feeds feature
+21. Add an Admin User feature
+22. Remove Default Image Links in WordPress
+23. Update Access permission denied method
+24. Update Allow shortcode in Cf7
+25. Theme security has been improved
+26. Add Remove Jetpack front-end stylesheet feature
+27. Add Dynamic sidebar layout
+28. Update microformat
+29. Change post view key name
+30. Remove pingback link
+31. Change text in post navigation links
+32. Update constant in auto enqueue script
+33. Add hentry-inner class
+34. Change grid class in footer
+35. Add vendor-prefix in stylesheet
+
+
+## v0.2.8   
+1. Add Vendor default jquery script
+2. Default jquery script move from header to footer
+3. Add Microdata in the Navbar
+4. Add has-children class in the Navbar
+
+
+## v0.2.7   
+1. Update Starter_Menu_Walker
+
+
+## v0.2.6   
+1. Edit text in readme.md   
+2. Edit text in class-starter-post-view.php
+
+
+## v0.2.5   
+1. Change Readme Text   
+
+
+## v0.2.4   
+1. Add Default Reset style
+2. Chagne Copyright Text 
+
+
+## v0.2.3   
+1. Add helper - starter_array_sort
+2. Add helper - starter_get_image_sizes
+3. Add helper - starter_get_term
+4. Add Post views
+
+
+## v0.2.2   
+1. Add last modified time as version to css and js
+
+
+## v0.2.1   
+1. Remove Type attribute script and style tags for wordpress
+2. Fixed Some Text and Indent
+
+
+## v0.2.0   
+Add Default Theme Features
+1. Detect Active Plugin
+2. Autoloader
+3. Clean Html Menu Walker
+4. Produces Cleaner Filenames for Uploads
+5. Add Custom Parameters to Youtube Video oEmbeds
+6. Custom Meta Boxes
+7. Simple shortcode for displaying a menu 
+
+
+## v0.1.4   
+Add front page and Description meta tag for yoast plugin conflict has been fixed.
+
+
+## v0.1.3   
+Add theme defaults and registers support for WordPress features
+
+
+## v0.1.2   
+Add Default Layout Template
+
+
+## v0.1.1   
+Remove unnecessary meta tags
+
+
+## v0.1.0      
+Build theme structure and html

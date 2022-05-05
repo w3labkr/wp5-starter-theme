@@ -1,0 +1,46 @@
+/**
+ * NkDialog
+ * jQuery dialog plugin
+ * 
+ * @version 1.0.0
+ * @author Krescentmoon
+ * @license under the MIT License
+ */
+
+/* dialog */
+#nkdialog-container { opacity: 0; visibility: hidden; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; overflow: hidden; }
+#nkdialog-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 9997; }
+#nkdialog-wrapper { width: 100%; max-width: 640px; padding: 10px; position: fixed; top: 50%; left: 50%; -webkit-transform: translate3d(-50%, -50%, 0); -moz-transform: translate3d(-50%, -50%, 0); transform: translate3d(-50%, -50%, 0); z-index: 9998; }
+#nkdialog-section { position: relative; }
+#nkdialog-wrap { position: relative; border: 1px solid #eee; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background: #fff; overflow: hidden; }
+#nkdialog-header { position: relative; border-bottom: 1px solid #eee; color: #222; }
+#nkdialog-title { padding: 1rem; }
+#nkdialog-title:empty { display: none; }
+#nkdialog-content { padding: 1rem; position: relative; color: #222; max-height: 50vh; overflow-y: scroll; }
+#nkdialog-footer { padding: 1rem; position: relative; border-top: 1px solid #eee; color: #222; }
+#nkdialog-footer:empty { display: none; }
+
+/* close */
+#nkdialog-close { width: 50px; height: 50px; line-height: 50px; font-size: 2rem; text-align: center; color: #fff; cursor: pointer; z-index: 9999; }
+#nkdialog-container.full-size #nkdialog-close { margin: 20px; }
+#nkdialog-container.inner #nkdialog-close { position: absolute; top: 0; right: 0; }
+#nkdialog-container.outer #nkdialog-close { position: absolute; top: 0; right: 0; margin: 10px; }
+
+/* skin */
+#nkdialog-container.origin #nkdialog-close { width: 30px; height: 30px; overflow: hidden; white-space: nowrap; text-indent: -9999px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); -webkit-transition: -webkit-transform 0.3s ease; transition: -webkit-transform 0.3s ease; -o-transition: -o-transform 0.3s ease; -moz-transition: transform 0.3s ease, -moz-transform 0.3s ease; transition: transform 0.3s ease; transition: transform 0.3s ease, -webkit-transform 0.3s ease, -moz-transform 0.3s ease, -o-transform 0.3s ease; }
+#nkdialog-container.origin #nkdialog-close > span { display: block; }
+#nkdialog-container.origin #nkdialog-close:hover { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
+#nkdialog-container.origin #nkdialog-close:before, #nkdialog-container.origin #nkdialog-close:after { content: ""; display: block; position: absolute; margin: auto; background: #fff; }
+#nkdialog-container.origin #nkdialog-close:before { width: 100%; height: 2px; top: 0; bottom: 0; }
+#nkdialog-container.origin #nkdialog-close:after { width: 2px; height: 100%; top: 0; left: 0; right: 0; }
+#nkdialog-container.origin.inner #nkdialog-section { padding-top: 40px; }
+#nkdialog-container.origin.full-size #nkdialog-close { margin: 20px; }
+#nkdialog-container.origin.bg-disabled #nkdialog-close:before, #nkdialog-container.origin.bg-disabled #nkdialog-close:after, #nkdialog-container.origin.full-size #nkdialog-close:before, #nkdialog-container.origin.full-size #nkdialog-close:after { background: #000; }
+
+/* scroll-fixed */
+body.nkdialog-fixed { overflow: hidden; }
+
+/* responsive */
+@media (max-width:767px) {
+    #nkdialog-content { max-height: 50vh; }
+}

@@ -1,0 +1,25 @@
+/** 
+ * breakpoint-hdmi: 1920px; 
+ * breakpoint-desktop: 1119px;
+ * breakpoint-tablet: 1023px;
+ * breakpoint-mobile: 767px;
+ */
+@media (max-width:1920px) { }
+@media (max-width:1119px) { }
+@media (max-width:1023px) { }
+@media (max-width:767px) {
+
+    /* header */
+    .site-brand { float: none; text-align: center; position: relative; z-index: 1000; background: #fff; }
+    
+    /* section-home */
+    .section {padding-top: 3rem;padding-bottom: 3rem;}
+
+    /* page */
+    .page-header {padding-bottom: 1.5rem;}
+    .page-content {padding-bottom: 9rem;}
+
+    /* sidebar */
+    .sidebar {padding-top: 3rem;}
+    
+}
