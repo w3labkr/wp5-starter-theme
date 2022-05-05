@@ -1,0 +1,1 @@
+# wp5-starter-theme
